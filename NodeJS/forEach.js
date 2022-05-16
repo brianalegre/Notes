@@ -1,6 +1,6 @@
 // forEach is a method used  "FOR LOOP"ing
 
-// Array Object To Loop Thru
+// Array Object
 const myObject = [
 	{ name: 'Brian', age: 34 },
 	{ name: 'Allec', age: 29 },
