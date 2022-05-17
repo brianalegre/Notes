@@ -1,9 +1,10 @@
 // Ternary Operator is the shorthand for IF statements
 
-// Typical IF statement
-
-let num1 = 1;
+// Variables
 let num2 = 1;
+let num1 = 1;
+
+// Typical IF statement
 if (num1 === num2) {
 	console.log('Numbers are the same');
 } else {
@@ -28,4 +29,3 @@ num1 === num2
 
 // Structure, 3 PARTS separated by ? and :
 // CONDITION ? IF TRUE DO THIS : ELSE DO THIS
-//

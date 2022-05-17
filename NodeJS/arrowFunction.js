@@ -8,13 +8,13 @@ function myFunction() {
 
 // Invoke Typical Function
 myFunction();
-// Displays
-// Typical Function
+// Displays:
+// 	Typical Function
 
 // Arrow Function
 let myArrow = () => console.log('Arrow Function');
 
 // Invoke Arrow Function
 myArrow();
-// Displays
-// Arrow Function
+// Displays:
+// 	Arrow Function

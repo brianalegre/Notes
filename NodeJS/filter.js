@@ -14,12 +14,13 @@ for (i = 0; i < myObject.length; i++) {
 	}
 }
 
-// Displays
-// { name: 'Brian', age: 34 }
+// Displays:
+// 	{ name: 'Brian', age: 34 }
 
 // Filter Method
 const myObject2 = myObject.filter(function (whateverParam) {
 	return whateverParam > 30;
 });
 
-// { name: 'Brian', age: 34 }
+// Displays:
+// 	{ name: 'Brian', age: 34 }

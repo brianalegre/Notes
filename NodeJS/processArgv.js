@@ -26,13 +26,13 @@ if (arg1 === arg2) {
 }
 
 // In the Terminal Run:
-// node processArgv.js brian alegre
+//  node processArgv.js brian alegre
 
 // Displays:
-// Values are different
+//  Values are different
 
 // In the Terminal Run:
-// node processArgv.js brian brian
+//  node processArgv.js brian brian
 
 // Displays:
-// Values are the same
+//  Values are the same

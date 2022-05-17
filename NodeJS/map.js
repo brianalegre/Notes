@@ -13,22 +13,22 @@ const myObject = [
 const newObject = myObject;
 console.log(newObject);
 
-// Displays
+// Displays:
 // [
 //     { name: 'Brian', age: 34 },
 //     { name: 'Allec', age: 29 },
 //     { name: 'Kevin', age: 28 }
-//   ]
+// ]
 
 // Map Shadow Copy
 const newObject2 = myObject.map((whateverParam) => {
 	console.log(whateverParam);
 });
 
-// Displays
-// { name: 'Brian', age: 34 }
-// { name: 'Allec', age: 29 }
-// { name: 'Kevin', age: 28 }
+// Displays:
+// 	{ name: 'Brian', age: 34 }
+// 	{ name: 'Allec', age: 29 }
+// 	{ name: 'Kevin', age: 28 }
 
 // Apply some condition during the Shadow Copy
 const newObject3 = myObject.map((whateverParam) => {
@@ -48,8 +48,8 @@ const newObject3 = myObject.map((whateverParam) => {
 });
 console.log('This is newObject3', newObject3);
 
-// Displays
-// This is newObject3 [
+// Displays:
+// 	This is newObject3 [
 //     { name: 'Brian', age: 34, isTwentyOne: true },
 //     { name: 'Allec', age: 29, isTwentyOne: true },
 //     { name: 'Kevin', age: 28, isTwentyOne: true }
