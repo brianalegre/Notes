@@ -21,7 +21,7 @@ fs.readFile('./fsReadFile.txt', 'utf8', (error, data) =>
 
 // fs.writeFile('FILENAME', process.argv[2], CALLBACK FUNCTION)
 // 	FS is called to write/create a file
-// 	process.argv[2] What to write in the file
+// 	process.argv[2] - What to write in the file
 //	CALLBACK FUNCTION - What to do after writing/creating the file
 
 fs.writeFile('./fsWriteFile.txt', process.argv[2], (error) =>
@@ -29,6 +29,22 @@ fs.writeFile('./fsWriteFile.txt', process.argv[2], (error) =>
 );
 
 // Run the command below, in the Terminal:
-// 	node fsReadWrite.js "I wrote to the file"
+// 	node fs.js "I wrote to the file"
 // 	Creates the file fsWriteFile.txt
 //  File has the text: "I wrote to the file"
+
+// fs.appendFile('FILENAME', process.arg[2], CALLBACK FUNCTION)
+// 	FS is called to append to an existing file
+// 	process.argv[2] - What to append to the file
+// 	CALLBACK FUNCTION - What to do after the appending
+
+fs.appendFile('./fsAppendFile.txt', process.argv[2], (error) =>
+	error ? console.log(error) : console.log('Successfuly appended file')
+);
+
+// Run the command below, in the Terminal:
+// 	node fs.js "I am appending"
+// 	If the file doesn't exist, the file will be created
+// 	File has the text "I am appending"
+
+
