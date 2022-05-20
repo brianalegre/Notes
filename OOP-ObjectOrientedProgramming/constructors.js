@@ -14,7 +14,7 @@ function myFunction(name, age) {
 
 // Assign a variable to the function
 // Pass values for the parameters
-const brian = new myFunction('brian', '34');
+const brian = new myFunction('brian', '34'); //Instashiation - can't spell
 
 // Invoke Function introduction with the variable brian
 brian.introduction();
